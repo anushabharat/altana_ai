@@ -2,19 +2,20 @@
 1. Use a virtiual environment to avoid dependency issues
 2. Install the requirements by running 
     
-    pip install -r requirements.txt
+        pip install -r requirements.txt
     
 3. Create the db table in postgres by running the file csv_to_sql.py
-
-    python csv_to_sql.py
+    
+        python csv_to_sql.py
     
     Note: Change the url of the postgres table in line 6
 4. Run the api file 
-
-    python api.py
+    
+        python api.py
     
 5. Open a browser and enter the url that is displayed on the terminal with the extension based on the get request
-    a. To get all companies associated with a given operator add the extension
+   
+   a. To get all companies associated with a given operator add the extension
     
         /companies/<operator_name>
         
