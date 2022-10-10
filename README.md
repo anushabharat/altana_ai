@@ -10,6 +10,7 @@
     
     Note: Change the url of the postgres table in line 6
 4. Run the api file 
+   Note: Change the url of the postgres table
     
         python api.py
     
